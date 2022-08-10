@@ -27,10 +27,10 @@ The first two models were tuned using a five-fold cross-validated grid search. T
 
 ## RESULTS
 
-The performance of each model was based on the mean absolute percentage error, measured on a separate test set.
--	K-nearest neighbour: 67% 
--	Random Forest: 83%
--	Neural Net: 92%
+The performance of each model was based on the mean absolute percentage error (MAPE), measured on a separate test set.
+-	K-nearest neighbour: 20% 
+-	Random Forest: 12.3%
+-	Neural Net: 7.7%
 
 The Neural Net was the most accurate, but the Random Forest was the most interpretable, giving the key ingredients required to increase the concrete’s compressive strength. 
 
